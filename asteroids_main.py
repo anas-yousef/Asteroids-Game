@@ -241,7 +241,7 @@ class GameRunner:
             self._screen.end_game()
             sys.exit()
         elif (self._screen.should_end()):
-            self._screen.show_message('Game Over!', 'Exiting Game. Score: ' + self._score)
+            self._screen.show_message('Game Over!', 'Exiting Game. Score: ' + str(self._score))
             self._screen.end_game()
             sys.exit()
 
