@@ -1,2 +1,2 @@
-# ex9
+# Asteroids Game
  Play the Python version game of Asteroids
